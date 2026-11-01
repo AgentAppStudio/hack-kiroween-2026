@@ -1,0 +1,13 @@
+.antigravity/
+.agent/
+.claude/
+.DS_Store
+videos/
+
+node_modules/
+dist/
+.next/
+coverage/
+# Kiroween 2026 Mandatory Rule: NEVER ignore /.kiro directory
+!.kiro/
+!.kiro/**

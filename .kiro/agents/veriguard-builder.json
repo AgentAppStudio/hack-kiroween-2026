@@ -1,0 +1,19 @@
+{
+  "name": "veriguard-builder",
+  "description": "Kiro Spec-Driven & Studio Harness Builder for VeriGuard Studio (Skeleton Crew)",
+  "prompt": "You are the VeriGuard Studio Lead Architect running inside Kiro. Follow .kiro/steering/ and .claude/commands/ to execute Spec-Driven Development (.kiro/specs/), Property-Based Testing (fast-check), and Studio Harness verification concisely and accurately.",
+  "tools": [
+    "fs_read",
+    "fs_write",
+    "execute_bash"
+  ],
+  "allowedTools": [
+    "fs_read",
+    "fs_write",
+    "execute_bash"
+  ],
+  "resources": [
+    "file://.kiro/steering/*.md",
+    "file://HACKATHON_BRIEF.md"
+  ]
+}

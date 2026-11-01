@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Run Studio Harness AC Coverage Check on SPEC.md Save",
+      "trigger": "PostFileSave",
+      "matcher": "SPEC\\.md$",
+      "action": {
+        "type": "command",
+        "command": "npm --prefix /Volumes/AllySSD/Projects/AgentAppStudio/studio-harness run coverage:check -- --spec ./SPEC.md || true"
+      }
+    }
+  ]
+}

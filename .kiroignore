@@ -1,0 +1,29 @@
+# ============================================================================
+# KIRO CREDIT GUARD (.kiroignore)
+# Chặn Kiro index các thư mục nặng & lockfiles để bảo toàn ngân sách 1,000 credits
+# (Giữ lại .claude/ và .agent/ để Kiro sử dụng trực tiếp bộ lệnh Studio Harness)
+# ============================================================================
+node_modules/
+.pnpm-store/
+.next/
+dist/
+build/
+out/
+coverage/
+*.lock
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+.git/
+.antigravity/*.log
+.playwright-browsers/
+videos/
+*.mp4
+*.webm
+*.wav
+*.mp3
+*.png
+*.jpg
+*.sqlite
+*.db
+*.log
